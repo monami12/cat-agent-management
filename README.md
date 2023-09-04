@@ -2,7 +2,7 @@ Cat agent Management system
 
 猫の雇用、管理、エクスポートまでを一元管理！
 
-#git cloneした後に下記のコマンドを入力してください
+#git cloneした後,プロジェクトディレクトリにて下記のコマンドを入力してください
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>
 sh setup_sail.sh
 ./vendor/bin/sail up -d
@@ -10,6 +10,8 @@ sh setup_sail.sh
 ./vendor/bin/sail npm install
 ./vendor/bin/sail npm run build
 ./vendor/bin/sail artisan migrate
+./vendor/bin/sail php artisan storage:link
+mkdir storage/app/public/_thumbs
 
 </pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install -g rdme" tabindex="0" role="button" style="display: inherit;">
