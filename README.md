@@ -2,7 +2,7 @@ Cat agent Management system
 
 猫の雇用、管理、エクスポートまでを一元管理！
 
-#install 
+#git cloneした後に下記のコマンドを入力してください
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>
 sh setup_sail.sh
 ./vendor/bin/sail up -d
