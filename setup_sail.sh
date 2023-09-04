@@ -1,4 +1,4 @@
-export -n DOCKER_CONTENT_TRUST
+
 docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v "$(pwd):/var/www/html" \
