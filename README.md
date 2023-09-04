@@ -22,3 +22,6 @@ sh setup_sail.sh
 </svg>
     </clipboard-copy>
   </div></div>
+sh setup_sail.shが動かない場合は、
+export -n DOCKER_CONTENT_TRUST
+を試してみてください
