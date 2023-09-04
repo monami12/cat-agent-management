@@ -30,7 +30,7 @@ export -n DOCKER_CONTENT_TRUST
 http://localhost/
 
 #操作手順
-１：アカウントを作成
-２：猫を雇用
-３：情報を編集
-４：エクスポート
+<div>１：アカウントを作成</div>
+<div>２：猫を雇用</div>
+<div>３：情報を編集</div>
+<div>４：エクスポート</div>
