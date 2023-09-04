@@ -4,12 +4,13 @@ Cat agent Management system
 
 #install 
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>
-    sh setup_sail.sh
-    ./vendor/bin/sail up -d
-    ./vendor/bin/sail artisan key:generate
-    ./vendor/bin/sail npm install
-    ./vendor/bin/sail npm run dev
-    ./vendor/bin/sail artisan migrate
+sh setup_sail.sh
+./vendor/bin/sail up -d
+./vendor/bin/sail artisan key:generate
+./vendor/bin/sail npm install
+./vendor/bin/sail npm run dev
+./vendor/bin/sail npm run build
+./vendor/bin/sail artisan migrate
 
 </pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install -g rdme" tabindex="0" role="button" style="display: inherit;">
