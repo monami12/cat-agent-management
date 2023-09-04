@@ -4,7 +4,7 @@ Cat agent Management system
 
 #install 
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>
-    sh install.sh
+    sh setup_sail.sh
     ./vendor/bin/sail up -d
     ./vendor/bin/sail artisan key:generate
     ./vendor/bin/sail npm install
