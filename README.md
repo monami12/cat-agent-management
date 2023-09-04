@@ -1,6 +1,6 @@
 Cat agent Management system
 
-猫の雇用、管理、エクスポートまでを一元管理！
+猫エージェント管理システム
 
 #git cloneした後,プロジェクトディレクトリにて下記のコマンドを入力してください
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>
