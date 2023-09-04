@@ -8,7 +8,6 @@ sh setup_sail.sh
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail npm install
-./vendor/bin/sail npm run dev
 ./vendor/bin/sail npm run build
 ./vendor/bin/sail artisan migrate
 
